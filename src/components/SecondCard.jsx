@@ -1,9 +1,9 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
-function SecondCard() {
+function SecondCard({theme}) {
   return (
     <div>
-      <div className="flex justify-center items-center p-28  bg-violet-50 ">
+      <div className={`flex justify-center items-center p-28  ${theme ? "white":'bg-violet-50 '}`}>
         <div className="flex flex-col justify-center items-center text-center w-[750px]">
           <p className="text-blue-500 font-medium tracking-widest my-4">
             WORLD-className INSTRUCTORS
@@ -17,15 +17,15 @@ function SecondCard() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5  lg:grid-cols-3 xl:grid-cols-4 md:px-24 gap-x-5 bg-violet-50">
-        <div className="border hover:shadow-lg rounded-md   border-gray-300">
+      <div className={`grid grid-cols-1 md:grid-cols-2 gap-y-5  lg:grid-cols-3 xl:grid-cols-4 md:px-24 gap-x-5 ${theme ? "white":'bg-violet-50 '}`}>
+        <div className="border hover:shadow-lg rounded-md  border-gray-300">
           <img
             className="rounded-t-lg w-full "
             src="https://mycenta-dev.netlify.app/images/instructor/instructor-img-1.jpg"
             alt=""
           />
           <div className="flex mx-5 flex-col">
-            <h3 className="font-bold text-xl mt-5">Mary Robert</h3>
+            <h3 className="font-bold text-xl  mt-5">Mary Robert</h3>
             <p className="text-gray-600">Professional Web Developer</p>
             <div className="flex  justify-between my-4 items-center">
              <span className="flex justify-center items-center "><AiFillStar className="text-orange-400" size={12} /><small className="ms-1 text-orange-300"> 4.5</small></span>
@@ -86,7 +86,7 @@ function SecondCard() {
           </div>
         </div>
       </div>
-      <div className="bg-violet-50 flex justify-center p-10">
+      <div className={` ${theme ? "white":'bg-violet-50 '} flex justify-center p-10`}>
         <button className="bg-blue-400 rounded-md text-white py-2 px-4 font-medium">
           See All Products
         </button>

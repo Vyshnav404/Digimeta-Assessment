@@ -8,7 +8,7 @@ import { FiHome } from "react-icons/fi";
 function Main() {
   return (
     <>
-    <div className="grid grid-cols-5  md:p-24 text-black dark:text-white ">
+    <div className="grid grid-cols-5  md:p-24  dark:text-white ">
   
     <div className="lg:col-span-2 col-span-5">
       <div className='flex items-center'>
@@ -17,8 +17,8 @@ function Main() {
       </span>
        <p className="font-medium my-2"> Join a global community of teachers and school leaders.</p>
         </div>
-      <h1 className="text-5xl my-2 font-bold  ">Unlock your teaching </h1> <h1 className="text-5xl font-bold "> potential, join us today</h1>
-      <p className="text-gray-700 my-4">Expand your teaching career with our comprehensive catalog of courses and certifications, designed to help you start, advance and enhance your career.</p>
+      <h1 className="text-5xl my-2 font-bold  text-gray-400">Unlock your teaching </h1> <h1 className="text-5xl text-gray-400 font-bold "> potential, join us today</h1>
+      <p className="text-gray-500 my-4 ">Expand your teaching career with our comprehensive catalog of courses and certifications, designed to help you start, advance and enhance your career.</p>
   
   
     <div className="my-7 flex">

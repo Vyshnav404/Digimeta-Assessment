@@ -2,9 +2,9 @@ import React from 'react'
 import { TbSquareRoundedLetterR } from "react-icons/tb";
 
 
-function Footer() {
+function Footer({theme}) {
   return (
-    <div class="md:px-28 pb-2 bg-blue-100 pt-5">
+    <div className={`md:px-28 pb-2 ${theme === 'white' ?"bg-blue-100":""} pt-5`}>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
     <div>
       <h1 class="font-bold text-xl">Company</h1>
