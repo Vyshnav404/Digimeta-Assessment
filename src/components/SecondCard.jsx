@@ -37,7 +37,7 @@ function SecondCard({theme}) {
         <div className=" border hover:shadow-lg rounded-md  border-gray-300">
           <img
             className="rounded-t-lg w-full "
-            src="https://mycenta-dev.netlify.app/images/instructor/instructor-img-1.jpg"
+            src="https://mycenta-dev.netlify.app/images/instructor/instructor-img-2.jpg"
             alt=""
           />
           <div className="flex mx-5 flex-col">
@@ -54,7 +54,7 @@ function SecondCard({theme}) {
         <div className=" border hover:shadow-lg rounded-md  border-gray-300">
           <img
             className="rounded-t-lg w-full"
-            src="https://mycenta-dev.netlify.app/images/instructor/instructor-img-1.jpg"
+            src="https://mycenta-dev.netlify.app/images/instructor/instructor-img-3.jpg"
             alt=""
           />
           <div className="flex mx-5 flex-col">

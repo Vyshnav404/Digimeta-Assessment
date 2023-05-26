@@ -4,53 +4,53 @@ import { TbSquareRoundedLetterR } from "react-icons/tb";
 
 function Footer({theme}) {
   return (
-    <div className={`md:px-28 pb-2 ${theme === 'white' ?"bg-blue-100":""} pt-5`}>
+    <div className={`md:px-28 lg:px-44 pb-2 ${theme === 'white' ?"bg-blue-100":""} pt-5`}>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
     <div>
       <h1 class="font-bold text-xl">Company</h1>
       <ul class="text-gray-600 mt-4">
-        <li>About</li>
-        <li>Leadership</li>
-        <li>Advisory bond</li>
-        <li>Careers</li>
-        <li>Catalog</li>
-        <li>Webinar</li>
-        <li>News & Awards</li>
+        <li className='py-1'>About</li>
+        <li className='py-1'>Leadership</li>
+        <li className='py-1'>Advisory bond</li>
+        <li className='py-1'>Careers</li>
+        <li className='py-1'>Catalog</li>
+        <li className='py-1'>Webinar</li>
+        <li className='py-1'>News & Awards</li>
         <li className='flex'>CENTA<TbSquareRoundedLetterR size={11}/> standards</li>
-        <li>CENTA for Goverments</li>
-        <li>CENTA for Schools</li>
-        <li>CENTA for Parents</li>
+        <li className='py-1'>CENTA for Goverments</li>
+        <li className='py-1'>CENTA for Schools</li>
+        <li className='py-1'>CENTA for Parents</li>
    
       </ul>
     </div>
     <div>
       <h1 class="font-bold text-xl">Community</h1>
       <ul class="text-gray-600 mt-4">
-        <li>CENTA Advisory</li>
-        <li>Wall of fame</li>
-        <li>The future of teaching</li>
-        <li>Insight from our work</li>
-        <li>Become an instructor</li>
-        <li>Blog</li>
-        <li>Contact</li>
-        <li>Partners</li>
+        <li className='py-1'>CENTA Advisory</li>
+        <li className='py-1'>Wall of fame</li>
+        <li className='py-1'> The future of teaching</li>
+        <li className='py-1'>Insight from our work</li>
+        <li className='py-1'>Become an instructor</li>
+        <li className='py-1'>Blog</li>
+        <li className='py-1'>Contact</li>
+        <li className='py-1'>Partners</li>
       </ul>
     </div>
     <div>
       <h1 class="font-bold text-xl">Support</h1>
       <ul class="text-gray-600 mt-4">
-        <li>Help and support</li>
-        <li>get the app</li>
-        <li>FAQ's</li>
-        <li>FAQ's</li>
-        <li>Tutorial</li>
+        <li className='py-1'>Help and support</li>
+        <li className='py-1'>get the app</li>
+        <li className='py-1'>FAQ's</li>
+        <li className='py-1'>FAQ's</li>
+        <li className='py-1'>Tutorial</li>
       </ul>
     </div>
     <div >
       <h1 class="font-bold text-xl">Contact</h1>
-      <p class="text-gray-600 mt-4">3rd Floor, SLV Complex, #22, 80 Ft. Road, Indiranagar, HAL 3rd Stage, Bengaluru – 560075</p>
-      <span>Email :</span><span class="text-blue-400">team@centa.org</span><br/>
-      <span>Phone :</span> <span>+91 6366219712</span>
+      <p class="text-gray-600 mt-4 py-1">3rd Floor, SLV Complex, #22, 80 Ft. Road, Indiranagar, HAL 3rd Stage, Bengaluru – 560075</p>
+      <span className='py-1'>Email :</span><span class="text-blue-400">team@centa.org</span><br/>
+      <span className='py-1'>Phone :</span> <span >+91 6366219712</span>
       <div class="flex mt-5">
         <img src="https://mycenta-dev.netlify.app/images/svg/appstore.svg" alt="" />
         <img src="https://mycenta-dev.netlify.app/images/svg/playstore.svg" alt="" />

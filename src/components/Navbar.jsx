@@ -35,99 +35,103 @@ const themeChanger = () =>{
         <div >
 
 <button onMouseOver={()=>setExplore(!explore)}  onMouseOverCapture={()=>setExplore(false)} id="dropdownDelayButton" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" className="border-b-2 md:border-0  bg-blue-400 hover:bg-blue-500  font-medium rounded-lg text-sm px-4 py-2.5 text-center justify-between md:justify-start inline-flex items-center text-white   w-full" type="button">Explore<svg className="w-4 h-4 ml-2 text-black" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-<div id="dropdownDelay" className={`z-10  absolute  ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" } ${explore ? "" : "hidden"} divide-y divide-gray-100 rounded-lg shadow w-[300px]`}>
+<div id="dropdownDelay" className={`z-10  absolute shadow-lg  ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" } ${explore ? "" : "hidden"} divide-y divide-gray-100 rounded-lg shadow w-[300px]`}>
 
 
   <div className="flex justify-between">
 
 
-  <ul className="py-20 p-10  text-sm text-gray-700 dark:text-gray-200 w-[400px] shadow-b-lg  shadow-l-lg " aria-labelledby="dropdownDelayButton">
+  <div className="flex justify-between">
+
+
+<ul className="py-20 p-10  text-sm text-gray-700 dark:text-gray-200 w-[300px] shadow-b-lg  shadow-l-lg " aria-labelledby="dropdownDelayButton">
 <li className="">
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>TEACHING PROFESSIONALS'OLYMPIAD</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>TEACHING PROFESSIONALS'OLYMPIAD</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >About Teaching Professionals'Olympiad</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >About Teaching Professionals'Olympiad</a>
 </li>
 <li>
-  <span href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>Get your CENTA<TbSquareRoundedLetterR/>  TQ Score</span>
+<span href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>Get your CENTA<TbSquareRoundedLetterR/>  TQ Score</span>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >What's happening LIVE?</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >What's happening LIVE?</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Syllabus</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Syllabus</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Focused Preparation Materials</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Focused Preparation Materials</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Curious Corner</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Curious Corner</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Past Events</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Past Events</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Register now</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Register now</a>
 </li>
 </ul>
-  <ul className={`py-20 text-sm p-10 text-gray-700 ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" } dark:text-gray-200 w-[400px] shadow-b-lg shadow-r-lg `} aria-labelledby="dropdownDelayButton">
+<ul className={`py-20 text-sm p-10 text-gray-700 ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" }  dark:text-gray-200 w-[400px] shadow-b-lg shadow-r-lg `} aria-labelledby="dropdownDelayButton">
 <li className="">
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >TEACHING PROFESSIONALS'OLYMPIAD</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >TEACHING PROFESSIONALS'OLYMPIAD</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >About Teaching Professionals'Olympiad</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >About Teaching Professionals'Olympiad</a>
 </li>
 <li>
-  <span href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>Get your CENTA<TbSquareRoundedLetterR/>  TQ Score</span>
+<span href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>Get your CENTA<TbSquareRoundedLetterR/>  TQ Score</span>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >What's happening LIVE?</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >What's happening LIVE?</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Syllabus</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Syllabus</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Focused Preparation Materials</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Focused Preparation Materials</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Curious Corner</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Curious Corner</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Past Events</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Past Events</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Register now</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Register now</a>
 </li>
 </ul>
-  <ul className={`py-20 shadow-b-lg p-10 text-sm text-gray-700 dark:text-gray-200 w-[400px] shadow-b-lg shadow-r-lg ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" } `} aria-labelledby="dropdownDelayButton">
+<ul className={`py-20 shadow-b-lg p-10 text-sm text-gray-700 dark:text-gray-200 w-[400px] shadow-b-lg shadow-r-lg ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" } `} aria-labelledby="dropdownDelayButton">
 <li className="">
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >TEACHING PROFESSIONALS'OLYMPIAD</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >TEACHING PROFESSIONALS'OLYMPIAD</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >About Teaching Professionals'Olympiad</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >About Teaching Professionals'Olympiad</a>
 </li>
 <li>
-  <span href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>Get your CENTA<TbSquareRoundedLetterR/>  TQ Score</span>
+<span href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>Get your CENTA<TbSquareRoundedLetterR/>  TQ Score</span>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >What's happening LIVE?</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >What's happening LIVE?</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Syllabus</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Syllabus</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Focused Preparation Materials</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Focused Preparation Materials</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Curious Corner</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Curious Corner</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Past Events</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Past Events</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Register now</a>
+<a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`} >Register now</a>
 </li>
 </ul>
+</div>
 </div>
 </div>
 </div>
@@ -188,11 +192,10 @@ const themeChanger = () =>{
 </ul>
 </div>
 </div>
-       
 <div >
 
 <button onMouseOver={()=>setTeaching(!teaching)}  onMouseOverCapture={()=>setTeaching(false)} id="dropdownDelayButton" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" className={`border-b-2 md:border-0    font-medium rounded-lg text-sm px-4 py-2.5 text-center justify-between md:justify-start inline-flex items-center  ${theme ==="bg-slate-800"  ? "text-white" :"text-black"}     w-full`} type="button">Teaching Professionals'Olympiad <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-<div id="dropdownDelay" className={`z-10  absolute   ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" }  ${teaching ? "" : "hidden"} divide-y divide-gray-100 rounded-lg shadow w-[300px]`}>
+<div id="dropdownDelay" className={`z-10  absolute   ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" }  ${teaching ? "" : "hidden"} divide-y divide-gray-100 rounded-lg shadow w-[400px]`}>
 <ul className="py-2 text-sm text-gray-700 dark:text-gray-200 w-[400px] shadow-lg " aria-labelledby="dropdownDelayButton">
 <li className="">
   <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>TEACHING PROFESSIONALS'OLYMPIAD</a>
@@ -201,7 +204,7 @@ const themeChanger = () =>{
   <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>About Teaching Professionals'Olympiad</a>
 </li>
 <li>
-  <span href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>Get your CENTA<TbSquareRoundedLetterR/>  TQ Score</span>
+  <span href="#" className={`block px-4 py-1 hover:bg-gray-100 flex  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>Get your CENTA<TbSquareRoundedLetterR/>  TQ Score</span>
 </li>
 <li>
   <a href="#" className={`block px-4 py-1 hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>What's happening LIVE?</a>
@@ -224,13 +227,13 @@ const themeChanger = () =>{
 </ul>
 </div>
 </div>
-<div>
+<div >
 
 <button onMouseOver={()=>setFuture(!future)} onMouseOverCapture={()=>setFuture(false)} id="dropdownDelayButton" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" className={  ` border-b-2 md:border-0   font-medium rounded-lg text-sm px-4 py-2.5 text-center  justify-between md:justify-start inline-flex items-center ${theme ==="bg-slate-800"  ? "text-white" :"text-black"}   w-full`} type="button">The Future of Teaching <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-<div id="dropdownDelay" className={`z-10  absolute  ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" } ${future ? "" : "hidden"} divide-y divide-gray-100 rounded-lg shadow w-44 `}>
-<ul className="py-2 text-sm  dark:text-gray-200" aria-labelledby="dropdownDelayButton">
+<div id="dropdownDelay" className={`z-10  absolute  ${theme  === "bg-slate-800" ? "bg-gray-500 " : "bg-white" } ${future ? "" : "hidden"} divide-y  divide-gray-100 rounded-lg shadow w-68 `}>
+<ul className="py-2 text-sm w-[280px]   shadow-lg dark:text-gray-200" aria-labelledby="dropdownDelayButton">
 <li>
-  <a href="#" className={`block px-4 py-2  hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>THE FUTURE OF TEACHING</a>
+  <a href="#" className={`block px-4 py-2  hover:bg-gray-100  flex-nowrap ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>THE FUTURE OF TEACHING</a>
 </li>
 <li>
   <a href="#" className={`block px-4 py-2  hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>About the Global Initiative</a>
@@ -245,7 +248,7 @@ const themeChanger = () =>{
   <a href="#" className={`block px-4 py-2  hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>Join the Initiative</a>
 </li>
 <li>
-  <a href="#" className={`block px-4 py-2  hover:bg-gray-100  ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>CENTA<TbSquareRoundedLetterR/>  ambassodors</a>
+  <a href="#" className={`block px-4 py-2  hover:bg-gray-100  flex ${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}>CENTA<TbSquareRoundedLetterR/>  ambassodors</a>
 </li>
 </ul>
 </div>

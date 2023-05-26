@@ -30,7 +30,71 @@ function Cards() {
     </div>
   </div>
   <div className="rounded shadow hover:shadow-lg">
-    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-gatsby.jpg" alt="" />
+    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-node.jpg" alt="" />
+    <div className="flex justify-between mx-5 my-3">
+      <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
+      <button>*</button>
+    </div>
+    <div className="mx-5 my-4">
+      <h3 className="text-lg font-medium">Remediating to improve student results</h3>
+      <small>By:Jenny Wilson</small>
+    </div>
+    <hr/>
+    <div className="flex justify-between mx-5 my-4">
+      <h4>$750</h4>
+      <h3>Purchase now</h3>
+    </div>
+  </div>
+  <div className="rounded shadow hover:shadow-lg">
+    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-laravel.jpg" alt=""/>
+    <div className="flex justify-between mx-5 my-3">
+      <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
+      <button>*</button>
+    </div>
+    <div className="mx-5 my-4">
+      <h3 className="text-lg font-medium">Remediating to improve student results</h3>
+      <small>By:Jenny Wilson</small>
+    </div>
+    <hr/>
+    <div className="flex justify-between mx-5 my-4">
+      <h4>$750</h4>
+      <h3>Purchase now</h3>
+    </div>
+  </div>
+  <div className="rounded shadow hover:shadow-lg">
+    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-angular.jpg" alt="" />
+    <div className="flex justify-between mx-5 my-3">
+      <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
+      <button>*</button>
+    </div>
+    <div className="mx-5 my-4">
+      <h3 className="text-lg font-medium">Remediating to improve student results</h3>
+      <small>By:Jenny Wilson</small>
+    </div>
+    <hr/>
+    <div className="flex justify-between mx-5 my-4">
+      <h4>$750</h4>
+      <h3>Purchase now</h3>
+    </div>
+  </div>
+  <div className="rounded shadow hover:shadow-lg">
+    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-laravel.jpg" alt=""/>
+    <div className="flex justify-between mx-5 my-3">
+      <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
+      <button>*</button>
+    </div>
+    <div className="mx-5 my-4">
+      <h3 className="text-lg font-medium">Remediating to improve student results</h3>
+      <small>By:Jenny Wilson</small>
+    </div>
+    <hr/>
+    <div className="flex justify-between mx-5 my-4">
+      <h4>$750</h4>
+      <h3>Purchase now</h3>
+    </div>
+  </div>
+  <div className="rounded shadow hover:shadow-lg">
+    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-react.jpg" alt=""/>
     <div className="flex justify-between mx-5 my-3">
       <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
       <button>*</button>
@@ -62,71 +126,7 @@ function Cards() {
     </div>
   </div>
   <div className="rounded shadow hover:shadow-lg">
-    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-gatsby.jpg" alt="" />
-    <div className="flex justify-between mx-5 my-3">
-      <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
-      <button>*</button>
-    </div>
-    <div className="mx-5 my-4">
-      <h3 className="text-lg font-medium">Remediating to improve student results</h3>
-      <small>By:Jenny Wilson</small>
-    </div>
-    <hr/>
-    <div className="flex justify-between mx-5 my-4">
-      <h4>$750</h4>
-      <h3>Purchase now</h3>
-    </div>
-  </div>
-  <div className="rounded shadow hover:shadow-lg">
-    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-gatsby.jpg" alt=""/>
-    <div className="flex justify-between mx-5 my-3">
-      <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
-      <button>*</button>
-    </div>
-    <div className="mx-5 my-4">
-      <h3 className="text-lg font-medium">Remediating to improve student results</h3>
-      <small>By:Jenny Wilson</small>
-    </div>
-    <hr/>
-    <div className="flex justify-between mx-5 my-4">
-      <h4>$750</h4>
-      <h3>Purchase now</h3>
-    </div>
-  </div>
-  <div className="rounded shadow hover:shadow-lg">
-    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-gatsby.jpg" alt=""/>
-    <div className="flex justify-between mx-5 my-3">
-      <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
-      <button>*</button>
-    </div>
-    <div className="mx-5 my-4">
-      <h3 className="text-lg font-medium">Remediating to improve student results</h3>
-      <small>By:Jenny Wilson</small>
-    </div>
-    <hr/>
-    <div className="flex justify-between mx-5 my-4">
-      <h4>$750</h4>
-      <h3>Purchase now</h3>
-    </div>
-  </div>
-  <div className="rounded shadow hover:shadow-lg">
-    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-gatsby.jpg" alt=""/>
-    <div className="flex justify-between mx-5 my-3">
-      <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
-      <button>*</button>
-    </div>
-    <div className="mx-5 my-4">
-      <h3 className="text-lg font-medium">Remediating to improve student results</h3>
-      <small>By:Jenny Wilson</small>
-    </div>
-    <hr/>
-    <div className="flex justify-between mx-5 my-4">
-      <h4>$750</h4>
-      <h3>Purchase now</h3>
-    </div>
-  </div>
-  <div className="rounded shadow hover:shadow-lg">
-    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-gatsby.jpg" alt=""/>
+    <img className="rounded-t-md" src="https://mycenta-dev.netlify.app/images/course/course-node.jpg" alt=""/>
     <div className="flex justify-between mx-5 my-3">
       <button className="bg-blue-100 text-blue-400 font-normal rounded-lg px-3">advance</button>
       <button>*</button>

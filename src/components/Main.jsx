@@ -5,7 +5,7 @@ import { FiCompass, FiUsers } from "react-icons/fi";
 import { SlBadge } from "react-icons/sl";
 import { FiHome } from "react-icons/fi";
 
-function Main() {
+function Main({theme}) {
   return (
     <>
     <div className="grid grid-cols-5  md:p-24  dark:text-white ">
@@ -17,8 +17,8 @@ function Main() {
       </span>
        <p className="font-medium my-2"> Join a global community of teachers and school leaders.</p>
         </div>
-      <h1 className="text-5xl my-2 font-bold  text-gray-400">Unlock your teaching </h1> <h1 className="text-5xl text-gray-400 font-bold "> potential, join us today</h1>
-      <p className="text-gray-500 my-4 ">Expand your teaching career with our comprehensive catalog of courses and certifications, designed to help you start, advance and enhance your career.</p>
+      <h1 className={`text-5xl my-2 font-bold  ${theme === "bg-slate-800" ? "text-white" : "text-gray-800"} `}>Unlock your teaching </h1> <h1 className="text-5xl font-bold "> potential, join us today</h1>
+      <p className={` ${theme === "bg-slate-800" ? "text-white" : "text-gray-800"}  my-4 `}>Expand your teaching career with our comprehensive catalog of courses and certifications, designed to help you start, advance and enhance your career.</p>
   
   
     <div className="my-7 flex">

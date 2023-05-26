@@ -11,7 +11,7 @@ function App() {
     <div
       className={`px-2 md:p-0 ${theme} ${ theme === "white" ? "text-black" : "text-white"}   `}>
       <Navbar setTheme={setTheme} theme={theme} />
-      <Main />
+      <Main theme={theme}  />
       <Cards />
       <SecondCard theme={theme}   />
       <Footer theme={theme} />
