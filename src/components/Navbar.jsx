@@ -256,7 +256,7 @@ const themeChanger = () =>{
         <img onClick={themeChanger} className="cursor-pointer" src="https://mycenta-dev.netlify.app/images/svg/sun.svg" alt="" />
         <button className="border border-black rounded-md p-2">Sign In</button>
       </div>
-      <div className={` ${open ? "flex" : "hidden"} md:hidden items-center gap-x-7`}>
+      <div onClick={themeChanger} className={` ${open ? "flex" : "hidden"} md:hidden items-center gap-x-7`}>
         <img src="https://mycenta-dev.netlify.app/images/svg/sun.svg" alt="" />
         <button className="border border-black rounded-md p-2">Sign In</button>
       </div>
