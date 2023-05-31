@@ -15,7 +15,7 @@ function Main({theme}) {
     <span className='bg-green-200 rounded-full mx-2  h-4 w-4 flex justify-center items-center'>
     <FcCheckmark size={12}/> 
       </span>
-       <p className="font-medium my-2"> Join a global community of teachers and school leaders.</p>
+       <p className={` my-2   font-medium my-2 ${theme === "bg-slate-800" ? "text-white" : "text-gray-800"} `}> Join a global community of teachers and school leaders.</p>
         </div>
       <h1 className={`text-5xl my-2 font-bold  ${theme === "bg-slate-800" ? "text-white" : "text-gray-800"} `}>Unlock your teaching </h1> <h1 className="text-5xl font-bold "> potential, join us today</h1>
       <p className={` ${theme === "bg-slate-800" ? "text-white" : "text-gray-800"}  my-4 `}>Expand your teaching career with our comprehensive catalog of courses and certifications, designed to help you start, advance and enhance your career.</p>
@@ -30,7 +30,7 @@ function Main({theme}) {
       <div className='bg-blue-400 border border-blue-200 rounded-full w-8 h-8 m-3 items-center flex justify-center'>
       <BsPlay color='white' size={20}/>
       </div>
-    <button> watch overview</button>
+    <button className={`${theme  === "bg-slate-800" ?  "text-white " : "text-black"}`}> watch overview</button>
       </div> 
     </div>
     
